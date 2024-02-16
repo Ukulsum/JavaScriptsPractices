@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Method</title>
+    <script src="js/main.js"></script>
+</head>
+<body>
+    <script>
+
+        document.write("Serve" + " Human"+" Foudation<br>");
+        document.write("Hello"+" World<br>");
+
+        var firstName = "Umme";
+        var lastName = "Kulsum";
+        document.write("firstName" + "lastName <br>");
+
+        var firstName = "Serve";
+        var lastName = " Human";
+        var fullName = firstName + lastName;
+        document.write(fullName + " Foundation <br>");
+        
+
+        var fullName = "Umme Kulsum <br>";
+
+        //document.write(fullName + " is my fullname");
+        document.write("My fullname is " + fullName );
+
+
+        var num1 = 20;
+        var num2 = 30;
+
+        document.write("num1 = " + num1 + " and num2 = " + num2);
+
+        var num1 = 20;
+        var num2 = 30;
+        var num3 = 40;
+        var num4 = 50;
+
+        document.write("<br>num1 = " + num1 + " <br> num2 = " + num2 + " <br> num3 = " + num3 + " <br> num4 = 50");
+
+        var text = "Bangladesh";
+
+        document.write("<br>Number of character : " + text.length);
+
+        var text = "Hello World";
+        var len = text.length;
+        document.write("<br>Number of character :" + len);
+
+        //var text = prompt("Enter your name :");
+        
+        //document.write("<br>Number of character :" + text.length);
+
+         var text = "Bangladesh";
+         document.write(text.charAt(0));
+         document.write(text.charAt(5));
+         document.write(text.charAt(2));
+         document.write(text.charAt(6));
+
+
+         var text = "<br>Bangladesh";
+         text = text.toUpperCase();
+         document.write(text);
+
+         var text = "<br>Hello World";
+         text = (text.toLowerCase());
+         document.write(text);
+
+         var text = "<br>Hello I am Umme Kulsum..";
+         text = (text.toLocaleLowerCase());
+         document.write(text);
+
+         var text = "<br>Hello I am Umme Kulsum..";
+         text = (text.toLocaleUpperCase());
+         document.write(text);
+
+         var text1 = "<br>Bangladesh";
+         var text2 = " is a small country."
+         var text = text1 + text2 ;
+         var text3 = text1 + text2;
+         text = text.toUpperCase();
+         text3 = text3.toLowerCase();
+         document.write(text3);
+         document.write(text);
+
+         var text1 = "<br>Bangladesh";
+         var text2 = " is a small country."
+         document.write(text1.concat(text2));
+
+         var text1 = "<br>Bangladesh";
+         var text2 = " is a small country.<br>";
+         var text = text1.concat(text2);
+         document.write(text);
+
+         var text1 = "Hello!";
+         var text1 = "I  am Umme Kulsum.";
+         var text = text1.concat(text2);
+         text = text.toUpperCase();
+         document.write(text);
+
+         var text = "Hello Bangladesh";
+         var text = text.slice(6,9);
+         document.write(text);
+
+         //task
+
+         var firstName = "<br>Hello!";
+         var lastName = "World.";
+         document.write(firstName + lastName);
+
+
+         var firstName = "<br>Hello!";
+         var lastName = "World.";
+         var fullName = firstName + lastName;
+         document.write(fullName);
+
+
+         var firstName = "<br>Hello!";
+         var lastName = "World.";
+         var fullName = firstName + lastName;
+         fullName = fullName.toUpperCase();
+         document.write(fullName);
+
+
+         var firstName = "<br>Hello!";
+         var lastName = "World.";
+         var fullName = firstName + lastName;
+         var len = text.length;
+         document.write("<br>Number of character : " + len);
+
+
+         var firstName = "<br>Hello!";
+         var lastName = "World.";
+         var fullName = firstName + lastName;
+         document.write("<br>Number of length :"+ text.length);
+
+
+
+
+         var firstName = "<br>Hello!";
+         var lastName = "World.";
+         var fullName = firstName + lastName;
+         document.write(text.charAt(2) + "<br>");
+
+         //Arithmetic and assingnment operator
+
+         var x = 7;
+         document.write(x);
+         document.write(x++);
+         document.write(x++);
+         document.write(x);
+         document.write(x);
+         document.write(x++);
+         document.write(++x);
+         document.write(++x);
+         document.write(x);
+         document.write(x--);
+         document.write(--x);
+         document.write(--x);
+         document.write(x++);
+         document.write(x += 9);
+         document.write(x += 9);
+         document.write(x -= 9);
+         document.write(++x + "<br>");
+
+         //Make a calculator
+
+
+          var num1 = 20;
+          var num2 = 30;
+          document.write(num1 + num2 + "<br>");
+
+          var num1 = 20;
+          var num2 = 30;
+          sum = num1 + num2;
+          document.write("sum = " + sum + "<br>");
+
+          var num1 = 20;
+          var num2 = 30;
+          sub = num1 - num2;
+          document.write("sub = " + sub + "<br>");
+
+          var num1 = prompt("Please Enter First Number : ");
+          var num2 = prompt("Please Enter Second Number : ");
+          var sum, sub;
+
+    
+          num1 = parseInt(num1,10);
+          num2 = parseInt(num2,10);
+
+          sum = num1 + num2;
+
+          document.write("Addition = " + sum + "<br>");
+
+          sub = num1 - num2;
+
+         document.write("subtraction = " + sub + "<br>");
+
+         var num1 = prompt("Please Enter First Number : ");
+         var num2 = prompt("Please Enter Second Number : ");
+
+         num1 = parseFloat(num1,10);
+         num2 = parseFloat(num2,10);
+
+         sum = num1 + num2;
+         document.write("Addition = " + sum + "<br>");
+
+         sub = num1 - num2;
+         document.write("subtraction = " + sub + "<br>");
+
+         var num1 = prompt("Enter first number :");
+         var num2 = prompt("Enter second number :");
+
+         num1 = parseInt(num1,10);
+         num2 = parseInt(num2,10);
+
+         sum = num1 + num2;
+         document.write("SUM = "+ sum +"<br>");
+
+         sub = num1 - num2;
+         document.write("SUB = "+ sub +"<br>");
+
+        //Task
+
+        var num1 = 20;
+        var num2 = 10;
+
+        sum = num1 + num2;
+        document.write("Sum :" + sum + "<br>");
+
+        sub = num1 - num2;
+        document.write("Sub :" + sub + "<br>");
+
+        mul = num1 * num2;
+        document.write("Mul :" + mul + "<br>");
+
+        div = num1 / num2;
+        document.write("Div :" + div + "<br>");
+
+        var num1 = 20;
+        var num2 = 9;
+
+        end = num1 % num2;
+        document.write("End :" + end + "<br>");
+
+        var num1 = 20;
+        var num2 = 10;
+
+        sum = num1 + num2;
+        document.write(num1 + " + " + num2 + " = " + sum + "<br>");
+
+        var num1 = 20;
+        var num2 = 10;
+
+        sub = num1 - num2;
+        document.write(num1 + " - " + num2 + " = " + sub + "<br>");
+
+        var num1 = 20;
+        var num2 = 10;
+
+        mul = num1 * num2;
+        document.write(num1 + " * " + num2 + " = " + mul + "<br>");
+
+        var num1 = 20;
+        var num2 = 10;
+
+        div = num1 / num2;
+        document.write(num1 + " / " + num2 + " = " + div + "<br>");
+
+        var num1 = 20;
+        var num2 = 10;
+
+        div = num1 % num2;
+        document.write(num1 + " % " + num2 + " = " + div + "<br>");
+
+
+
+         
+
+
+
+
+
+
+
+    </script>
+    
+</body>
+</html>
